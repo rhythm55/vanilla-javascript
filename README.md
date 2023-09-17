@@ -10,11 +10,16 @@
         3. machine code is executed
     Lossely typed:
       In Js there is not strict typing - a variable type can change during run time . Say you have a variable x assinged with numeric value. Same varialbe in later code can be assinged as string. This is generally not possible in other languages like - java, c++ etc.
-      Hosted language: 
+      Hosted language:
         - Js can be run on browser, today most of the modern browser have JS engine in built like -
            - chrom v8
            - firefox SpiderMonkey
            in this case it do not have access to system variables etc. We get more visual interaction experience with it.
         - Js can also be run in system using node js
            after chrome v8 was launched it was converted as node js with which js can be executed in system.
-![Screenshot 2023-09-16 at 2 27 15 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/16656a6f-4fe7-4a84-b2e7-496c1d122777)
+![Screenshot 2023-09-16 at 2 27 15 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/8b80b9bf-8d13-46b3-ab44-fcab60cba4c2)
+
+***
+
+### How do webpages works
+![Screenshot 2023-09-17 at 6 18 18 PM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/7fe1ec8a-839b-4f43-8684-5e7ac3241cef)
