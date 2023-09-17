@@ -37,6 +37,9 @@
     Object, Array, Function, Date, Regx
 ![js-datatype](https://github.com/rhythm55/vanilla-javascript/assets/36883992/fb65304c-7f10-4f55-88c2-e77f92e148c0)
 
+#### Converting data type
+    PareseInt (Number without decimal values), ParseFloat(numbers with decimal places), toString()
+
 ***
 
 ### Variables in JS
