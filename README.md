@@ -36,3 +36,33 @@
     Derived data types or reference data types i.e we refer to an address in memory
     Object, Array, Function, Date, Regx
     ![js-datatype](https://github.com/rhythm55/vanilla-javascript/assets/36883992/fb65304c-7f10-4f55-88c2-e77f92e148c0)
+
+### Variables in JS
+
+    ####What are variables
+        variables are data containers that stores a data
+        we have two ways of declaring variables using let and const
+
+        #####let
+            it can be re intialized
+            does not needs to be initialized at the time of the declaration
+            used when variable value will be changed in program lifecycle
+        #####const
+            it cannot be re intialized
+            needs to be initialized at the time of the declaration
+            used when variable value will remian same in program lifecycle
+
+    #####Shadowed Variable
+        if we declare two variables in different scopes - local and global its allowed in JS. Not allowed in same scope.
+        Reason - variable declared in global will be available in global scope. the one created in local scope will have different declaration then global scope.
+        for ex:
+            
+                    let userName;
+    
+                    function nameChange(){
+                       let userName = "rhythm thakur";
+                       console.log(userName);  
+                    }
+                    userName = "rhythm";
+                    nameChange(); // output will be rhythm thakur - here local scope was considered for userName - also known as Shadowed variable
+                    console.log(userName); // output will be rhythm
