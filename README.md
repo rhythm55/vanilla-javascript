@@ -23,3 +23,16 @@
 
 ### How do webpages works
 ![Screenshot 2023-09-17 at 6 18 18 PM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/7fe1ec8a-839b-4f43-8684-5e7ac3241cef)
+
+***
+
+### Data types in JS
+
+####Primitive 
+    The predefined data types provided by JavaScript language are also known as in-built data types.
+    Number, String, Boolean, Null, Undefined
+
+####Non-Primitive
+    Derived data types or reference data types i.e we refer to an address in memory
+    Object, Array, Function, Date, Regx
+    ![js-datatype](https://github.com/rhythm55/vanilla-javascript/assets/36883992/fb65304c-7f10-4f55-88c2-e77f92e148c0)
