@@ -71,8 +71,10 @@
                 userName = "rhythm";
                 nameChange(); // output will be rhythm thakur - here local scope was considered for userName - also known as Shadowed variable
                 console.log(userName); // output will be rhythm
+***
 
-### Mixing Numbers & Strings
+### Operators
+#### Mixing Numbers & Strings
     - `+` operator also support strings.
         3 + 'hello' // outpur is 3hello
     - other operators dont support string but they are able to smartly convert string number to number for operations
@@ -80,3 +82,12 @@
         3 - '3' // 0
         2 * 'hi' // NaN
         2 * '2' // 4
+#### a++ vs ++a 
+    ++a returns value after update
+    a++ returns value before update
+    example - 
+        const a = 1;
+        console.log(++a); //2
+
+        const a = 1;
+       console.log(a++); //1
