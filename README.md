@@ -119,7 +119,7 @@
 
 ### Importing script with async and defer
     Both are only applicable to external scripts - as with internal there is nothing to download.
-    ![Screenshot 2023-09-27 at 2 07 35 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/e8413166-c179-4e53-9439-a279045309fa)
+![Screenshot 2023-09-27 at 2 07 35 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/e8413166-c179-4e53-9439-a279045309fa)
 
 #### Defer
     When we want to load the script and execute after HTML is parsed.
