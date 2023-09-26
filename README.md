@@ -114,4 +114,20 @@
     Its usually comes into picture when we have invalid number calculations
     example:
         console.log(3*'hi"); //NaN
+
+***
+
+### Importing script with async and defer
+    Both are only applicable to external scripts - as with internal there is nothing to download.
+    ![Screenshot 2023-09-27 at 2 07 35 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/e8413166-c179-4e53-9439-a279045309fa)
+
+#### Defer
+    When we want to load the script and execute after HTML is parsed.
+    This saves time of loading while html is parsed.
+    Usually used to improve performance and when we want the script only to be executed once HTML is parsed.
+    
+#### Async
+    When we want to load script as soon as it loads.
+    If it load while html parsing is in progress - once the loading of script is done html parsing will be paused to execute the script once execution is done html parsing will be resumed.
+    Usually used when we want script to be loaded first.
     
