@@ -91,3 +91,27 @@
 
         const a = 1;
        console.log(a++); //1
+
+***
+### Null / Undefined / NaN
+
+#### Undefined
+    Data type. 
+    When a variable is defined in JS without initializing any value by default its assigned with undefined.
+    We should not assign undefined manually not a good practice.
+    Example
+        let a;
+        console.log(a); //undefined
+    
+#### Null
+    Special value
+    Data type of null is Object.
+    Can be used when we want to reset value of a variable.
+    
+#### NaN
+    Not a Number
+    Its a number that is not a legal number
+    Its usually comes into picture when we have invalid number calculations
+    example:
+        console.log(3*'hi"); //NaN
+    
