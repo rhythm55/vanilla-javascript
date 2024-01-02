@@ -139,3 +139,8 @@
 ### Falsy and Truthy Values
     JavaScript is able to use variables in conditions - even without comparison operators. When it sees a variable in a condition it automatically coerce ("convert without really converting") the values you pass to if .
 ![Screenshot 2024-01-03 at 1 07 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/d59c7095-8e2e-483b-a025-edae555f2655)
+
+### Boolean tricks
+![Screenshot 2024-01-03 at 1 47 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/4a4891b2-2036-4cf7-9383-3aef4b13f3cd)
+
+
