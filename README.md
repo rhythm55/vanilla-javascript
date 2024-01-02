@@ -92,6 +92,10 @@
         const a = 1;
        console.log(a++); //1
 
+#### Operator precedence
+
+() > Increment Operators(++,--) > NOT Operators(!,~) > Arithmetic Operators(*,/,% > +,-) > Comparison Operators > Logical Operators
+
 ***
 ### Null / Undefined / NaN
 
