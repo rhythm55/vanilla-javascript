@@ -143,4 +143,6 @@
 ### Boolean tricks
 ![Screenshot 2024-01-03 at 1 47 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/4a4891b2-2036-4cf7-9383-3aef4b13f3cd)
 
+### For loops in JS
+![Screenshot 2024-01-03 at 1 55 05 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/8b0bfd98-54af-4e6e-ad73-e16c612d6540)
 
