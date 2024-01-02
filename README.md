@@ -1,4 +1,4 @@
-# vanilla-javascript
+![Screenshot 2024-01-03 at 1 07 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/9e41a863-8638-4e4d-9717-9ae114bc6976)# vanilla-javascript
 
 ### What is JS
     Dynamic: 
@@ -94,7 +94,7 @@
 
 #### Operator precedence
 
-() > Increment Operators(++,--) > NOT Operators(!,~) > Arithmetic Operators(*,/,% > +,-) > Comparison Operators > Logical Operators
+    () > Increment Operators(++,--) > NOT Operators(!,~) > Arithmetic Operators(*,/,% > +,-) > Comparison Operators > Logical Operators
 
 ***
 ### Null / Undefined / NaN
@@ -135,3 +135,7 @@
     If it load while html parsing is in progress - once the loading of script is done html parsing will be paused to execute the script once execution is done html parsing will be resumed.
     Usually used when we want script to be loaded first.
     
+
+### Falsy and Truthy Values
+    JavaScript is able to use variables in conditions - even without comparison operators. When it sees a variable in a condition it automatically coerce ("convert without really converting") the values you pass to if .
+    ![Screenshot 2024-01-03 at 1 07 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/d59c7095-8e2e-483b-a025-edae555f2655)
