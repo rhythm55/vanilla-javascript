@@ -135,18 +135,35 @@
     If it load while html parsing is in progress - once the loading of script is done html parsing will be paused to execute the script once execution is done html parsing will be resumed.
     Usually used when we want script to be loaded first.
     
+***
 
 ### Falsy and Truthy Values
     JavaScript is able to use variables in conditions - even without comparison operators. When it sees a variable in a condition it automatically coerce ("convert without really converting") the values you pass to if .
 ![Screenshot 2024-01-03 at 1 07 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/d59c7095-8e2e-483b-a025-edae555f2655)
 
+***
+
 ### Boolean tricks
 ![Screenshot 2024-01-03 at 1 47 32 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/4a4891b2-2036-4cf7-9383-3aef4b13f3cd)
+
+***
 
 ### For loops in JS
 ![Screenshot 2024-01-03 at 1 55 05 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/8b0bfd98-54af-4e6e-ad73-e16c612d6540)
 
+***
+
 ### Primitive vs Refrence Value
 ![Screenshot 2024-01-03 at 11 43 19 PM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/77213722-6019-43d5-ae8c-5de5e5abbe15)
 
+    Objects are refrence values that is why we cant compare equality using === or == . consider below example -
+    const a = {age: 30}
+    const b = {age: 30}
+    console.log(a == b) // this will return false 
+    reason : a and b are storing a refrence and equality is checking the address which is why it will always be false
+
+    Array are refrence values . Check below example 
+    const a = ['apple']
+    a.push('grapes') // const can not be changed so it should throw an error - but here it wont
+    reason: here error wont be thrown because const is storing refrence address which is still same - the value to which refrence pointing to is changed
 
