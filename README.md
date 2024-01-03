@@ -146,3 +146,7 @@
 ### For loops in JS
 ![Screenshot 2024-01-03 at 1 55 05 AM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/8b0bfd98-54af-4e6e-ad73-e16c612d6540)
 
+### Primitive vs Refrence Value
+![Screenshot 2024-01-03 at 11 43 19 PM](https://github.com/rhythm55/vanilla-javascript/assets/36883992/77213722-6019-43d5-ae8c-5de5e5abbe15)
+
+
